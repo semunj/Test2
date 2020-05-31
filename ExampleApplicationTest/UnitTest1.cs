@@ -23,5 +23,13 @@ namespace ExampleApplicationTest
             string output = str1.ReplaceSpacesInStringByHyphens("DP1 is cool");
             Assert.AreEqual(output, "DP1-is-cool");
         }
+
+        [TestMethod]
+        public void replaceSpacesInStringByHyphens2()
+        {
+            StringUtilities str1 = new StringUtilities();
+            string output = str1.ReplaceSpacesInStringByHyphens("DP1 is cool");
+            Assert.AreEqual(output, "DP1-is-cool");
+        }
     }
 }
