@@ -8,12 +8,10 @@ namespace SpaceInvaders
     {
         #region Private fields
         Size size;
-        Image Image;
         int interval;
         public int speed, x, y;
         int screenW, screenH;
         int numberOfPositions;
-        int fplayNo;
         #endregion
 
         #region Public fields
@@ -24,13 +22,24 @@ namespace SpaceInvaders
         #endregion
 
         #region Constructors and factory methods
-        public Player(Size size, int numberOfPositions, int numberOfLives, int aplayNo)
+        public Player(Size size, int numberOfPositions, int numberOfLives, Image image)
         {
             Lives = numberOfLives;
             this.size = size;
             this.numberOfPositions = numberOfPositions;
-            fplayNo = aplayNo;
+
+            // initialize sprite
+            Sprite = new PictureBox
+            {
+                Tag = "player",
+                Size = size,
+                BackColor = Color.Transparent,
+                Image = image,
+                SizeMode = PictureBoxSizeMode.StretchImage
+            };
+            Sprite.BringToFront();
         }
+
 
         public Player(Size size, int numberOfPositions, int numberOfLives, string userName)
         {
@@ -38,28 +47,19 @@ namespace SpaceInvaders
             Lives = numberOfLives;
             this.size = size;
             this.numberOfPositions = numberOfPositions;
-            fplayNo = 1;
-        }
 
-        public void InitializeSprite()
-        {
-            if (fplayNo == 1)
-                Image = Properties.Resources.player1;
-            else if (fplayNo == 2)
-                Image = Properties.Resources.player2;
-            else
-                Image = Properties.Resources.playervs2;
+            // initialize sprite
             Sprite = new PictureBox
             {
                 Tag = "player",
                 Size = size,
                 BackColor = Color.Transparent,
-                Image = this.Image,
+                Image = Properties.Resources.player1,
                 SizeMode = PictureBoxSizeMode.StretchImage
             };
             Sprite.BringToFront();
         }
-        
+
         public Player(string name, int scores)
         {
             Lives = 3;
@@ -83,13 +83,11 @@ namespace SpaceInvaders
             this.speed = interval;
 
             if (playerNo == 1)
-                this.x = screenW - interval;
+                this.x = screenW - 150;
             else
                 this.x = speed;
             this.y = screenH - 150;
-        }
-        public void PositionSprite()
-        {
+
             Sprite.Location = new Point(x, y);
         }
 
@@ -102,7 +100,7 @@ namespace SpaceInvaders
             this.speed = interval;
 
             if (playerNo == 2)
-                this.x = screenW - interval;
+                this.x = screenW - 450;
             else
                 this.x = speed;
             this.y = screenH - 800;
