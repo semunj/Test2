@@ -36,8 +36,8 @@ namespace SpaceInvaders
             missles2 = new List<MissleVs2>();
             //asteroids = new List<Asteroid>();
 
-            Player1 = new Player(PlayerSize, numberOfPositions, numberOfLives, Properties.Resources.player1); // create Player 1
-            Player2 = new Player(PlayerSize, numberOfPositions, numberOfLives, Properties.Resources.playervs2); // create Player 2
+            Player1 = new Player(PlayerSize, numberOfPositions, numberOfLives, 1); // create Player 1
+            Player2 = new Player(PlayerSize, numberOfPositions, numberOfLives, 3); // create Player 2
 
 
             numberOfLivesLabel.Text = String.Format("Lives = {0}", Player1.Lives);  

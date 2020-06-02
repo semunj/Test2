@@ -36,8 +36,8 @@ namespace SpaceInvaders
             missles = new List<Missle>();
             asteroids = new List<Asteroid>();
 
-            player1 = new Player(playerSize, numberOfPositions, numberOfLives, Properties.Resources.player1); // create player 1
-            player2 = new Player(playerSize, numberOfPositions, numberOfLives, Properties.Resources.player2); // create player 2
+            player1 = new Player(playerSize, numberOfPositions, numberOfLives, 1); // create player 1
+            player2 = new Player(playerSize, numberOfPositions, numberOfLives, 2); // create player 2
 
             asteroidFactory = new AsteroidFactory(asteroidSize, asteroidSpeed, numberOfPositions);
 

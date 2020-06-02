@@ -62,10 +62,6 @@
               "target": "Package",
               "version": "[3.16.1, )"
             },
-            "System.Drawing.Common": {
-              "target": "Package",
-              "version": "[4.7.0, )"
-            },
             "nunit": {
               "target": "Package",
               "version": "[3.12.0, )"
