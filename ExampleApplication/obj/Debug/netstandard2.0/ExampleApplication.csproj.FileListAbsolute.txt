@@ -1,9 +1,0 @@
-C:\Users\Asus\Desktop\ExampleApplication\ExampleApplication\bin\Debug\netstandard2.0\ExampleApplication.deps.json
-C:\Users\Asus\Desktop\ExampleApplication\ExampleApplication\bin\Debug\netstandard2.0\ExampleApplication.dll
-C:\Users\Asus\Desktop\ExampleApplication\ExampleApplication\bin\Debug\netstandard2.0\ExampleApplication.pdb
-C:\Users\Asus\Desktop\ExampleApplication\ExampleApplication\obj\Debug\netstandard2.0\ExampleApplication.csprojAssemblyReference.cache
-C:\Users\Asus\Desktop\ExampleApplication\ExampleApplication\obj\Debug\netstandard2.0\ExampleApplication.AssemblyInfoInputs.cache
-C:\Users\Asus\Desktop\ExampleApplication\ExampleApplication\obj\Debug\netstandard2.0\ExampleApplication.AssemblyInfo.cs
-C:\Users\Asus\Desktop\ExampleApplication\ExampleApplication\obj\Debug\netstandard2.0\ExampleApplication.csproj.CoreCompileInputs.cache
-C:\Users\Asus\Desktop\ExampleApplication\ExampleApplication\obj\Debug\netstandard2.0\ExampleApplication.dll
-C:\Users\Asus\Desktop\ExampleApplication\ExampleApplication\obj\Debug\netstandard2.0\ExampleApplication.pdb
