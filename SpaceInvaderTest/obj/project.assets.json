@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
+    ".NETCoreApp,Version=v3.0": {
       "coverlet.collector/1.3.0": {
         "type": "package",
         "build": {
@@ -79,6 +79,9 @@
         "runtime": {
           "lib/netstandard1.0/_._": {}
         }
+      },
+      "Microsoft.NETFramework.ReferenceAssemblies/1.0.0-preview.2": {
+        "type": "package"
       },
       "Microsoft.TestPlatform.ObjectModel/16.6.1": {
         "type": "package",
@@ -1822,6 +1825,17 @@
         "microsoft.netcore.targets.1.1.0.nupkg.sha512",
         "microsoft.netcore.targets.nuspec",
         "runtime.json"
+      ]
+    },
+    "Microsoft.NETFramework.ReferenceAssemblies/1.0.0-preview.2": {
+      "sha512": "m+pJPEO7HyXvrOna5Sr3s77ewXonjYWJTNL6drh8xACnMNxnlqUDKx9HfGeSE9wmfY0lQwppaeZpFTPGaH7kZg==",
+      "type": "package",
+      "path": "microsoft.netframework.referenceassemblies/1.0.0-preview.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "microsoft.netframework.referenceassemblies.1.0.0-preview.2.nupkg.sha512",
+        "microsoft.netframework.referenceassemblies.nuspec"
       ]
     },
     "Microsoft.TestPlatform.ObjectModel/16.6.1": {
@@ -5723,10 +5737,11 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
+    ".NETCoreApp,Version=v3.0": [
       "MSTest.TestAdapter >= 2.1.1",
       "MSTest.TestFramework >= 2.1.1",
       "Microsoft.NET.Test.Sdk >= 16.6.1",
+      "Microsoft.NETFramework.ReferenceAssemblies >= 1.0.0-preview.2",
       "SpaceInvaders >= 1.0.0",
       "coverlet.collector >= 1.3.0"
     ]
@@ -5748,14 +5763,14 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        "netcoreapp3.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "netcoreapp3.0": {
           "projectReferences": {
             "C:\\Users\\Asus\\Documents\\Git\\Test2\\SpaceInvaders.csproj": {
               "projectPath": "C:\\Users\\Asus\\Documents\\Git\\Test2\\SpaceInvaders.csproj"
@@ -5770,7 +5785,7 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
+      "netcoreapp3.0": {
         "dependencies": {
           "MSTest.TestAdapter": {
             "target": "Package",
@@ -5783,6 +5798,12 @@
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[16.6.1, )"
+          },
+          "Microsoft.NETFramework.ReferenceAssemblies": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[1.0.0-preview.2, )"
           },
           "coverlet.collector": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -5804,7 +5825,15 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[3.1.2, 3.1.2]"
+            "version": "[3.0.1, 3.0.1]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
           }
         ],
         "frameworkReferences": {
