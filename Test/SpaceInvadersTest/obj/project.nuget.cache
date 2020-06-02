@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "t7vnt3nTuvyfcpSsKjj6aSyxGfVkfReFKNfDRXaeXpRwY/VpebiKK1IMzZv59xByLTb2dw384xXdirtrWPyPAg==",
+  "dgSpecHash": "U7vpFrX0PCe5UdRVQtWHOtIUNyd51le3Xn1kirZ4nOHKK7On5uR9fCxlC1tLpIe9X/+PMEe6r37cgdeGJhMW3A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Asus\\Desktop\\New folder\\Test\\SpaceInvadersTest\\SpaceInvadersTest.csproj",
+  "projectFilePath": "C:\\Users\\Asus\\Documents\\Git\\Test2\\Test\\SpaceInvadersTest\\SpaceInvadersTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.codecoverage\\16.6.1\\microsoft.codecoverage.16.6.1.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",

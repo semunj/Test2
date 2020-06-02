@@ -4755,11 +4755,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Asus\\Desktop\\New folder\\Test\\SpaceInvadersTest\\SpaceInvadersTest.csproj",
+      "projectUniqueName": "C:\\Users\\Asus\\Documents\\Git\\Test2\\Test\\SpaceInvadersTest\\SpaceInvadersTest.csproj",
       "projectName": "SpaceInvadersTest",
-      "projectPath": "C:\\Users\\Asus\\Desktop\\New folder\\Test\\SpaceInvadersTest\\SpaceInvadersTest.csproj",
+      "projectPath": "C:\\Users\\Asus\\Documents\\Git\\Test2\\Test\\SpaceInvadersTest\\SpaceInvadersTest.csproj",
       "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Asus\\Desktop\\New folder\\Test\\SpaceInvadersTest\\obj\\",
+      "outputPath": "C:\\Users\\Asus\\Documents\\Git\\Test2\\Test\\SpaceInvadersTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4775,8 +4775,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Asus\\Desktop\\New folder\\SpaceInvaders.csproj": {
-              "projectPath": "C:\\Users\\Asus\\Desktop\\New folder\\SpaceInvaders.csproj"
+            "C:\\Users\\Asus\\Documents\\Git\\Test2\\SpaceInvaders.csproj": {
+              "projectPath": "C:\\Users\\Asus\\Documents\\Git\\Test2\\SpaceInvaders.csproj"
             }
           }
         }
