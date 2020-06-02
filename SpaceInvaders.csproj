@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AnimatedObject.cs" />
     <Compile Include="Asteroid.cs" />
     <Compile Include="AsteroidFactory.cs" />
     <Compile Include="Client.cs">
