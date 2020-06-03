@@ -43,6 +43,7 @@
   <PropertyGroup Condition="'$(MSBuildRuntimeType)' == 'Core'">
   <GenerateResourceMSBuildArchitecture>CurrentArchitecture</GenerateResourceMSBuildArchitecture>
   <GenerateResourceMSBuildRuntime>CurrentRuntime</GenerateResourceMSBuildRuntime>
+  <GenerateResourceUsePreserializedResources>true</GenerateResourceUsePreserializedResources>
 </PropertyGroup>
   <PropertyGroup>
     <StartupObject />
