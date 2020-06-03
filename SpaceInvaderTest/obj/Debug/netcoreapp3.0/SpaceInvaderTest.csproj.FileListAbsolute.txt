@@ -92,3 +92,7 @@ C:\Users\Asus\Documents\Git\Test2\SpaceInvaderTest\obj\Debug\netcoreapp3.0\Space
 C:\Users\Asus\Documents\Git\Test2\SpaceInvaderTest\obj\Debug\netcoreapp3.0\SpaceInvaderTest.AssemblyInfo.cs
 C:\Users\Asus\Documents\Git\Test2\SpaceInvaderTest\obj\Debug\netcoreapp3.0\SpaceInvaderTest.csproj.CopyComplete
 C:\Users\Asus\Documents\Git\Test2\SpaceInvaderTest\obj\Debug\netcoreapp3.0\SpaceInvaderTest.genruntimeconfig.cache
+C:\Users\Asus\Documents\Git\Test2\SpaceInvaderTest\bin\Debug\netcoreapp3.0\SpaceInvaderTest.pdb
+C:\Users\Asus\Documents\Git\Test2\SpaceInvaderTest\obj\Debug\netcoreapp3.0\SpaceInvaderTest.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Documents\Git\Test2\SpaceInvaderTest\obj\Debug\netcoreapp3.0\SpaceInvaderTest.dll
+C:\Users\Asus\Documents\Git\Test2\SpaceInvaderTest\obj\Debug\netcoreapp3.0\SpaceInvaderTest.pdb
