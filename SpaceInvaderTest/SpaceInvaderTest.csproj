@@ -30,7 +30,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SpaceInvaders.csproj">
-      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>
 
